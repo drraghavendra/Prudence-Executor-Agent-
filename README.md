@@ -45,7 +45,7 @@ The Difference: This showcases the Masumi vision by involving two separate, toke
 3. AI-Driven Conditional Logic (The "Prudent" Factor)
 What it is: The core decision-making (Prudence Engine) is handled by an AI agent that can evaluate complex, real-time market data (volatility, multiple APRs, etc.) against the user's risk tolerance.
 The Difference: This moves beyond simple "If X price, then Y trade" rules. The AI's decision to execute is informed by multiple data points, and the necessary inputs are then validated by the Aikenscript, ensuring the sophistication of the AI's "prudence" is upheld by the blockchain's security.
-<img width="2764" height="311" alt="image" src="https://github.com/user-attachments/assets/d664a0fe-f92d-419d-96a2-bdb42623258f" />
+
 
 
 
