@@ -16,6 +16,7 @@ Architecture
 <img width="763" height="549" alt="image" src="https://github.com/user-attachments/assets/c796b1d2-1d16-49ab-90ef-21c20bc15e36" />
 
 
+Video of the solution
 
 
 
