@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: pexa
+      POSTGRES_USER: pexa_user
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build: ./backend
+    environment:
+      DATABASE_URL: postgresql://pexa_user:${DB_PASSWORD}@postgres:5432/pexa
+      BLOCKFROST_API_KEY: ${BLOCKFROST_API_KEY}
+      AGENT_ADDRESS: ${AGENT_ADDRESS}
+      MASUMI_API_KEY: ${MASUMI_API_KEY}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
