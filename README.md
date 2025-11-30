@@ -34,6 +34,21 @@ Builds Trust Infrastructure: Shifts trust from intermediaries to verifiable code
 
 <img width="1507" height="459" alt="image" src="https://github.com/user-attachments/assets/94265285-5cf8-45d5-b73b-560a47f830b5" />
 
+The Unique Selling Proposition (USP) of Project Prudence: The Prudent Executor Agent (PEX-A) lies in its combination of non-custodial security, AI-driven conditional logic, and on-chain collaborative monetization, all tightly integrated on the Cardano eUTxO model.
+The USP can be summarized as:
+The USP: "Verifiably Prudent, Trustlessly Executed."
+The PEX-A is the only automation solution that offers non-custodial, AI-powered conditional execution verified directly by a Plutus Smart Contract.
+1. Plutus-Enforced Non-Custodial Security (The "Trustless" Factor)
+What it is: The funds and the action are delegated, but the user never hands over their private keys or full control. The delegated funds are locked in a Plutus Validator Script (PVS) UTxO.
+The Difference: Unlike centralized bots that hold keys, or delegation standards that rely only on off-chain signatures, the PEX-A's authority is strictly limited by the on-chain PVS. The PVS acts as an escrow that only unlocks if the agent provides cryptographic proof (via the Datum/Redeemer) that the user's conditions were met.
+2. Masumi Collaborative Monetization (The "Agent Economy" Factor)
+What it is: The PEX-A is not a siloed bot; it is a collaborative business entity on the Masumi Network. It demonstrably purchases data from other Masumi Data Insight Agents to make its decisions.
+The Difference: This showcases the Masumi vision by involving two separate, tokenized agents in a single high-value transaction. PEX-A monetizes by charging a fee for successful execution, creating a "pay-for-prudence" service model built on micro-transactions with other agents.
+3. AI-Driven Conditional Logic (The "Prudent" Factor)
+What it is: The core decision-making (Prudence Engine) is handled by an AI agent that can evaluate complex, real-time market data (volatility, multiple APRs, etc.) against the user's risk tolerance.
+The Difference: This moves beyond simple "If X price, then Y trade" rules. The AI's decision to execute is informed by multiple data points, and the necessary inputs are then validated by the Aikenscript, ensuring the sophistication of the AI's "prudence" is upheld by the blockchain's security.
+<img width="2764" height="311" alt="image" src="https://github.com/user-attachments/assets/d664a0fe-f92d-419d-96a2-bdb42623258f" />
+
 
 
 
