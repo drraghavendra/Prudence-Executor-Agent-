@@ -31,8 +31,6 @@ Provides Audit Transparency: Immutable on-chain record of all decisions builds t
 Lowers Barriers: Makes institutional-grade automation accessible to retail DeFi participants
 Reduces Human Error: Automated execution eliminates emotional trading and manual mistakes
 Builds Trust Infrastructure: Shifts trust from intermediaries to verifiable code execution
-
-<img width="1507" height="459" alt="image" src="https://github.com/user-attachments/assets/94265285-5cf8-45d5-b73b-560a47f830b5" />
 
 The Unique Selling Proposition (USP) of Project Prudence: The Prudent Executor Agent (PEX-A) lies in its combination of non-custodial security, AI-driven conditional logic, and on-chain collaborative monetization, all tightly integrated on the Cardano eUTxO model.
 The USP can be summarized as:
